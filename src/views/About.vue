@@ -1,5 +1,5 @@
 <template>
-  <main class="about bg-primary relative z-30 text-center pb-32 sm:pb-0">
+  <main class="bg-primary relative z-30 text-center pb-32 sm:pb-0">
     <!-- Logo -->
     <div class="pt-16">
       <router-link to="/" class="block w-60 md:w-96 mx-auto">
@@ -11,7 +11,7 @@
         />
       </router-link>
     </div>
-    <div id="maincontain">
+    <div>
       <!-- Nav Buttons -->
       <section class="my-14 lg:w-4/5 xl:w-11/12 mx-auto">
         <ul class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap:8">

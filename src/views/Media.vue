@@ -13,7 +13,7 @@
         </router-link>
       </div>
 
-      <div id="maincontain">
+      <div>
         <!-- Nav Buttons -->
         <section class="mt-14 lg:w-4/5 xl:w-11/12 mx-auto">
           <ul class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap:8">
@@ -71,7 +71,7 @@
 
             <!-- -->
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -82,7 +82,7 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,7 +106,7 @@
 
             <!-- -->
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -117,8 +117,8 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 videoparent">
-              <div class="videocontain h-full w-full">
+            <div>
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/qDm2MlcE5u4?VQ=HD1080"
@@ -128,8 +128,8 @@
               </div>
             </div>
 
-            <div class="gridunit c1 quote hidetwocolumn">
-              <div class="quotecontain">
+            <div>
+              <div>
                 <p
                   class="text-yellow-sea tracking-widest text-3xl font-bold leading-tight mb-6"
                 >
@@ -143,8 +143,8 @@
 
             <!-- -->
 
-            <div class="gridunit c1 videoparent">
-              <div class="videocontain h-full w-full">
+            <div>
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/2LgqUiqTvio?VQ=HD1080"
@@ -154,7 +154,7 @@
               </div>
             </div>
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -165,8 +165,8 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 videoparent">
-              <div class="videocontain h-full w-full">
+            <div>
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/3v4swVJjuds?VQ=HD1080"
@@ -178,9 +178,9 @@
 
             <!-- -->
 
-            <div class="gridparent c2 col-span-2">
-              <div class="gridunit c2 videoparent h-full w-full">
-                <div class="videocontain h-full w-full">
+            <div class="col-span-2">
+              <div class="h-full w-full">
+                <div class="h-full w-full">
                   <iframe
                     class="block h-full w-full"
                     src="https://www.youtube.com/embed/cXWlgP5hZzc?VQ=HD1080"
@@ -188,15 +188,11 @@
                     allowfullscreen=""
                   ></iframe>
                 </div>
-                <div class="videocaptions hideonecolumn">
-                  <span class="left">Trailer 2</span>
-                  <span class="right gridcaptionbold">E3 2015</span>
-                </div>
               </div>
             </div>
 
             <div class="flex flex-col gap-8">
-              <div class="gridunit c1 screenshot">
+              <div>
                 <a
                   href="http://www.firewatchgame.com/screenshots/firewatch-e3-6.jpg"
                   ><img
@@ -204,7 +200,7 @@
                     src="http://www.firewatchgame.com/screenshots/thumbs/firewatch_05.jpg"
                 /></a>
               </div>
-              <div class="gridunit c1 screenshot">
+              <div>
                 <a
                   href="http://www.firewatchgame.com/screenshots/firewatch-e3-4.jpg"
                   ><img
@@ -214,11 +210,9 @@
               </div>
             </div>
 
-            <!-- -->
-
-            <div class="gridparent c1">
-              <div class="gridunit c1 quote">
-                <div class="quotecontain mb-16">
+            <div>
+              <div>
+                <div class="mb-16">
                   <p
                     class="text-yellow-sea tracking-widest text-4xl font-bold leading-tight mb-6"
                   >
@@ -228,8 +222,8 @@
                   <p class="font-bold text-yellow-sea-700 text-xl">GameSpot</p>
                 </div>
               </div>
-              <div class="gridunit c1 quote">
-                <div class="quotecontain">
+              <div>
+                <div>
                   <p
                     class="text-yellow-sea tracking-widest text-4xl font-bold leading-tight mb-6"
                   >
@@ -242,8 +236,8 @@
               </div>
             </div>
 
-            <div class="gridunit c2 videoparent col-span-2">
-              <div class="videocontain h-full w-full">
+            <div class="col-span-2">
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/d02lhvvVSy8?VQ=HD1080"
@@ -251,7 +245,7 @@
                   allowfullscreen=""
                 ></iframe>
               </div>
-              <div class="videocaptions hideonecolumn">
+              <div>
                 <span class="left">Trailer 1</span>
                 <span class="right gridcaptionbold">PAX 2014</span>
               </div>
@@ -259,7 +253,7 @@
 
             <!-- -->
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -270,8 +264,8 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 videoparent">
-              <div class="videocontain h-full w-full">
+            <div>
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/fdeSd4yNLuM?VQ=HD1080"
@@ -281,7 +275,7 @@
               </div>
             </div>
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -294,7 +288,7 @@
 
             <!-- -->
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -305,7 +299,7 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -316,7 +310,7 @@
               /></a>
             </div>
 
-            <div class="gridunit c1 screenshot">
+            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -329,8 +323,8 @@
 
             <!-- -->
 
-            <div class="gridunit c3 videoparent col-span-full h-96">
-              <div class="videocontain h-full w-full">
+            <div class="col-span-full h-96">
+              <div class="h-full w-full">
                 <iframe
                   class="block h-full w-full"
                   src="https://www.youtube.com/embed/T-qmLZfMvKU?VQ=HD1080"
