@@ -1,6 +1,7 @@
 <template>
   <main class="media bg-primary relative z-30 text-center pb-32 sm:pb-0">
     <section class="bg-primary relative z-30 container mx-auto px-6">
+      <!-- Logo -->
       <div class="pt-16">
         <router-link to="/" class="block w-60 md:w-96 mx-auto">
           <img
@@ -11,41 +12,27 @@
           />
         </router-link>
       </div>
-      <!-- ==== -->
+
       <div id="maincontain">
-        <section class="mt-14 lg:w-4/5 xl:w-1/2 mx-auto">
-          <ul class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap:8">
+        <!-- Nav Buttons -->
+        <section class="mt-14 lg:w-4/5 xl:w-11/12 mx-auto">
+          <ul class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap:8">
             <li class="link">
               <router-link
                 to="/about"
-                class="
-                  bg-yellow-sea-600
-                  hover:bg-yellow-sea
-                  flex
-                  items-center
-                  justify-center
-                  p-1
-                  transition
-                  transform
-                  hover:scale-105
-                "
+                class="bg-yellow-sea-600 hover:bg-yellow-sea flex items-center justify-center transition transform hover:scale-105"
               >
-                <span class="font-extrabold text-lg">About Firewatch</span>
+                <span class="font-extrabold text-lg uppercase"
+                  >About Firewatch</span
+                >
               </router-link>
             </li>
             <li class="link active">
               <a
                 href
-                class="
-                  flex
-                  items-center
-                  justify-center
-                  p-1
-                  text-yellow-sea
-                  border border-yellow-sea
-                "
+                class="flex items-center justify-center text-yellow-sea border border-yellow-sea"
               >
-                <span class="font-extrabold text-lg"
+                <span class="font-extrabold text-lg uppercase"
                   >Screens &amp; Trailers</span
                 >
               </a>
@@ -53,34 +40,17 @@
             <li class="link">
               <router-link
                 to="/"
-                class="
-                  bg-yellow-sea-600
-                  hover:bg-yellow-sea
-                  flex
-                  items-center
-                  justify-center
-                  p-1
-                  transition
-                  transform
-                  hover:scale-105
-                "
+                class="bg-yellow-sea-600 hover:bg-yellow-sea flex items-center justify-center transition transform hover:scale-105"
               >
-                <span class="font-extrabold text-lg">Home</span>
+                <span class="font-extrabold text-lg uppercase">Home</span>
               </router-link>
             </li>
           </ul>
         </section>
-
+        <!-- Main Content -->
         <section class="mb-24">
           <div
-            class="
-              mt-16
-              fullpage
-              flex flex-col
-              md:grid md:grid-cols-2
-              xl:grid-cols-3
-              gap-8
-            "
+            class="mt-16 fullpage flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3 gap-8"
           >
             <div class="videoparent col-span-full">
               <div>
@@ -126,14 +96,7 @@
             <div class="gridunit c1 quote">
               <div class="quotecontain">
                 <p
-                  class="
-                    text-yellow-sea
-                    tracking-widest
-                    text-3xl
-                    font-bold
-                    leading-tight
-                    mb-6
-                  "
+                  class="text-yellow-sea tracking-widest text-3xl font-bold leading-tight mb-6"
                 >
                   "A beautiful, atmospheric game with a lot of heart."
                 </p>
@@ -168,14 +131,7 @@
             <div class="gridunit c1 quote hidetwocolumn">
               <div class="quotecontain">
                 <p
-                  class="
-                    text-yellow-sea
-                    tracking-widest
-                    text-3xl
-                    font-bold
-                    leading-tight
-                    mb-6
-                  "
+                  class="text-yellow-sea tracking-widest text-3xl font-bold leading-tight mb-6"
                 >
                   "Firewatch looks completely rad."
                 </p>
@@ -264,14 +220,7 @@
               <div class="gridunit c1 quote">
                 <div class="quotecontain mb-16">
                   <p
-                    class="
-                      text-yellow-sea
-                      tracking-widest
-                      text-4xl
-                      font-bold
-                      leading-tight
-                      mb-6
-                    "
+                    class="text-yellow-sea tracking-widest text-4xl font-bold leading-tight mb-6"
                   >
                     "A fresh,<br />
                     clever take on adventure gaming."
@@ -282,14 +231,7 @@
               <div class="gridunit c1 quote">
                 <div class="quotecontain">
                   <p
-                    class="
-                      text-yellow-sea
-                      tracking-widest
-                      text-4xl
-                      font-bold
-                      leading-tight
-                      mb-6
-                    "
+                    class="text-yellow-sea tracking-widest text-4xl font-bold leading-tight mb-6"
                   >
                     "Traps you between suspense and beauty…"
                   </p>
@@ -422,5 +364,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
